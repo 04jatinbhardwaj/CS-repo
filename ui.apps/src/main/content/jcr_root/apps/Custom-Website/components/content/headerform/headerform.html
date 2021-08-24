@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+	<body>
+    <p data-sly-test.edit = "${wcmmode.edit}" data-emptyText = "You can configure the form element here" class = "cq-placeholder">
+    <br><br>
+    <h1>Header Form</h1>
+		<Form action = "getData">
+        	<table>
+				<tr>
+					<td>Enter your name : <br>
+						<input type = "text" placeholder = "Your good name please" name = "${properties.name}">
+                    </td>
+				</tr>
+                <br>
+                <tr>
+					<td>Enter your Email ID : <br>
+						<input type = "text" placeholder = " Enter Email Address">
+                    </td>
+				</tr>
+                <br>
+
+            </table>
+            <br>
+            <input type = "submit">
+		</form>
+        <br><br>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+
+<p data-sly-test.edit = "${wcmmode.edit}" data-emptytext = "you can configure footer here" class = "cq-placeholder"></p>
+<html>
+    <body>
+    <h2>Footer Element</h2>
+
+    	<ul data-sly-list.obj = "${currentPage.listChildren}">     <!--This is used to iterate the elements of the current element...-->
+                                                  <!--Sightly does not support for loop and while loop...so adobe introduce DATA-SLY-LIST to iterate the elements -->
+	The title of the sub components is : ${obj.text}  <br>
+	</ul>
+    </body>
+</html>
